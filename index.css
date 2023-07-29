@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+img {
+    width: 90px;
+    margin: 0 auto;
+}
+
+textarea {
+    color: #8F8F8F;
+    min-width: 317px;
+    height: 118px;
+    padding-top: 10px;
+    border-radius: 8px;
+    border: none;
+    text-indent: 15px;
+    background: #444059;
+    font-family: 'Inter', sans-serif; 
+}
+
+.input-btn {
+    display: flex;
+    gap: 10px;
+}
+
+#from-field, #to-field {
+    width: 50%;
+    height: 40px;
+    background: #444059;
+    color: #8F8F8F;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0 solid #04131C;
+    text-align: center;
+}
+
+#publish-button {
+    height: 61px;
+    border-radius: 8px;
+    border: 0 solid #04131C;
+    background: #28A9F1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#endorsements-list {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    background: #FFFFFF;
+}
+
+.endorsement-input {
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+.endorsement-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endorsement-tofrom {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.endorsement-like {
+    margin-right: 15px;
+}
